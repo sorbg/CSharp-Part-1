@@ -7,7 +7,7 @@ Write a program that reads from the console a sequence of **N** integer numbers 
 
 ## Input
 - On the first line, you will receive the number **N**.
-- On each of the next **N** lines, you will receive a single floating-point number.
+- On each of the next **N** lines, you will receive a single integer number.
 
 ## Output
 - You output must always consist of *exactly* 4 lines - the minimal element on the first line, the maximal on the second, the sum on the third and the average on the fourth, in the following format:
