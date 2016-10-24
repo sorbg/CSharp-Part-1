@@ -2,7 +2,7 @@
 <!-- attr: { class:'slide-title', showInPresentation: true, hasScriptWrapper: true } -->
 # Primitive Data Types and Variables
 ## Integer, Floating-point, Text Data, Characters, Variables, Literals
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic00.png" style="top:50.52%; left:59.88%; width:44.96%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic00.png" style="top:50.52%; left:59.88%; width:44.96%; z-index:-1; border-radius: 15px" /> -->
 <div class="signature">
 	<p class="signature-course">C# Fundamentals</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
@@ -78,7 +78,7 @@ int count = 5;
 - _Example_:
   - Integer numbers in C#
   - Name: `int`
-  - Size: 32 bits (4 bytes)
+  - Size: `32` bits (`4` bytes)
   - Default value: `0`
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:20%; right: 8%; width:14.10%; z-index:-1; border-radius: 15px" /> -->
@@ -234,7 +234,7 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
   - `decimal` (128-bits)
     - Min: `±1,0 × 10`<code><sup>-28</sup></code>
     - Max: `±7,9 × 10`<code><sup>28</sup></code>
-    -Precision: **28-29 digits**
+    - Precision: **28-29 digits**
   - Used for financial calculations
   - No round-off errors
   - Almost no loss of precision
@@ -275,9 +275,8 @@ Console.WriteLine(equalA1);    // True
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Boolean Type -->
 ## [Demo]()
-<div style="text-align: center">
-<!-- <img showInPresentation="true"  src="imgs/pic20.png" style="border-radius: 15px;" /> -->
-</div>
+
+<!-- <img showInPresentation="true"  src="imgs/pic20.png" style="top:40%; left:10%; width:30%; z-index:-1; border-radius: 15px" /> -->
 
 
 <!-- section start -->
@@ -333,7 +332,8 @@ Console.WriteLine("The code of '{0}' is: {1}",
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Character Type -->
 ## [Demo]()
-<!-- <img showInPresentation="true"  src="imgs/pic24.png" style="border-radius: 15px" /> -->
+
+<!-- <img showInPresentation="true"  src="imgs/pic24.png" style="top:40%; left:10%; width:30%; z-index:-1; border-radius: 15px" /> -->
 
 <!-- section start -->
 <!-- attr: { id:'string', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
@@ -377,7 +377,7 @@ Console.WriteLine("Your full name is {0}.",
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # String Type -->
 ## [Demo]()
-<!-- <img showInPresentation="true"  src="imgs/pic27.png" style="width:40%" /> -->
+<!-- <img showInPresentation="true"  src="imgs/pic27.png" style="top:40%; left:10%; width:30%; z-index:-1; border-radius: 15px" /> -->
 
 
 <!-- section start -->
@@ -716,18 +716,21 @@ realNumber = 1.25e+7f;
   - `\uXXXX` for denoting any other Unicode symbol
 
 
-<!-- attr: { showInPresentation: true } -->
+<!-- attr: { showInPresentation: true, style: 'font-size: 0.9em' } -->
 <!-- # Character Literals – _Example_ -->
 - _Examples_ of different character literals:
 
 ```cs
 char symbol = 'a'; // An ordinary symbol
-symbol = '\u006F'; // Unicode symbol code in a			      // hexadecimal format (letter 'o')
+
+// Unicode symbol in hexadecimal format (letter 'o')
+symbol = '\u006F'; 
+
 symbol = '\u8449'; // 葉 (Leaf in Traditional Chinese)
-symbol = '\''; // Assigning the single quote symbol
-symbol = '\\'; // Assigning the backslash symbol
-symbol = '\n'; // Assigning new line symbol
-symbol = '\t'; // Assigning TAB symbol
+symbol = '\''; // single quote symbol
+symbol = '\\'; // backslash symbol
+symbol = '\n'; // new line symbol
+symbol = '\t'; // TAB symbol
 symbol = "a"; // Incorrect: use single quotes
 ```
 
