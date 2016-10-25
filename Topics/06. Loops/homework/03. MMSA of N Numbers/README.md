@@ -11,6 +11,7 @@ Write a program that reads from the console a sequence of **N** integer numbers 
 
 ## Output
 - You output must always consist of *exactly* 4 lines - the minimal element on the first line, the maximal on the second, the sum on the third and the average on the fourth, in the following format:
+
 ```
 min=3.00
 max=6.00
@@ -20,7 +21,7 @@ avg=4.50
 
 ## Constraints
 - 1 <= **N** <= 1000
-- All numbers will be valid floating-point numbers that will be in the range `[-10000, 10000]`
+- All numbers will be valid integer numbers that will be in the range `[-10000, 10000]`
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 
