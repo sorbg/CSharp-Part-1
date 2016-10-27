@@ -41,12 +41,12 @@
 
 <!-- section start -->
 <!-- attr: { id:'while', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # <a id="while"></a>Using while(…) Loop -->
+<!-- # Using `while(…)` Loop -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:48.48%; left:30%; width:45%; z-index:-1; border-radius: 15px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# How To Use While Loop?
+# How to use `while` loop?
 - The simplest and most frequently used loop
 
 ```cs
@@ -65,13 +65,13 @@ while (condition)
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# While Loop – How It Works?
+# `while` loop – How it works?
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/while-loop.png" style="top:15%; left:10%; width:80%; z-index:-1; border-radius: 15px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# While Loop – _Example_
+# `while` loop – _Example_
 
 ```cs
 int counter = 0;
@@ -115,7 +115,7 @@ Console.WriteLine(" = {0}", sum);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Calculating Sum 1..N -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Sum)
+## [Demo](./demos/Sum)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
@@ -145,13 +145,13 @@ Console.WriteLine("Prime? {0}", prime);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Checking Whether a Number Is Prime -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/IsPrime)
+## [Demo](./demos/IsPrime)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:44.96%; left:70.17%; width:28%; z-index:-1; border-radius: 15px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:44.96%; left:0%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Using break Operator
+# Using `break` operator
 - `break` operator exits the inner-most loop
 
 ```cs
@@ -175,21 +175,20 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Calculating Factorial -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/FactorialBreak)
+## [Demo](./demos/FactorialBreak)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic09.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
 
-
 <!-- section start -->
 <!-- attr: { id:'dowhile', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # <a id="dowhile"></a>do { … } while (…)Loop -->
+<!-- # `do { … } while (…)` loop -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:45%; left:25%; width:50%; z-index:-1; border-radius: 15px;" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Using Do-While Loop
+# Using `do-while` loop
 - Another loop structure is:
 
 ```cs
@@ -210,7 +209,7 @@ while (condition);
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Do-While Statement
+# `do-while` statement
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/dowhile-loop.png" style="top:15%; left:10%; width:70%; z-index:-1; border-radius: 15px;" /> -->
 
@@ -220,7 +219,7 @@ while (condition);
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # do { … } while
+<!-- # `do { … } while`
 ## _Examples_ -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic12.png" style="top:45%; left:28%; width:40%; z-index:-1; border-radius: 15px;" /> -->
 
@@ -273,8 +272,8 @@ static void Main()
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # Factorial (do ... while) -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/FactorialDoWhile)
+<!-- # Factorial (`do ... while`) -->
+## [Demo](./demos/FactorialDoWhile)
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Product[N..M] – _Example_
@@ -285,12 +284,14 @@ int n = int.Parse(Console.ReadLine());
 int m = int.Parse(Console.ReadLine());
 int number = n;
 decimal product = 1;
+
 do
 {		
     product *= number;
     number++;
 }
 while (number <= m);
+
 Console.WriteLine("product[n..m] = " + product);
 ```
 
@@ -304,14 +305,14 @@ Console.WriteLine("product[n..m] = " + product);
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # for Loops -->
+<!-- attr: { id:'for', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # `for` Loops -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:45%; left:20%; width:60%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'for', class:'', showInPresentation:true, hasScriptWrapper:false } -->
-# <a id="for"></a>For Loops
+<!-- attr: { class:'', showInPresentation:true, hasScriptWrapper:false } -->
+# `for` Loops
 - The typical `for` loop syntax is:
 
 ```cs
@@ -329,15 +330,13 @@ for (initialization; test; update)
 
 
 
-
-
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # The Initialization Expression
 
 ```cs
 for (int number = 0; ...; ...)
 {
-        // Can use number here
+    // Can use number here
 }
 // Cannot use number here
 ```
@@ -391,7 +390,7 @@ for (int number = 0; number < 10; number++)
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # for Loop -->
+<!-- # `for` Loop -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic16.png" style="top:41.65%; left:28%; width:45%; z-index:-1; border-radius: 15px;" /> -->
 
 
@@ -423,7 +422,7 @@ for (int i = 1; i <= n; i++)
 - Complex `for`-loops could have several counter variables:
 
 ```cs
-for (int i=1, sum=1; i<=128; i=i*2, sum+=i)
+for (int i=1, sum=1; i <= 128; i = i*2, sum += i)
 {
     Console.WriteLine("i={0}, sum={1}", i, sum);
 }
@@ -443,7 +442,7 @@ i=8, sum=15
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # For Loops -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/ForLoops)
+## [Demo](./demos/ForLoops)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:55%; left:35%; width:30%; z-index:-1; border-radius: 15px;" /> -->
 
 
@@ -457,10 +456,12 @@ static void Main()
     int n = int.Parse(Console.ReadLine());
     int m = int.Parse(Console.ReadLine());
     decimal result = 1;
+
     for (int i=0; i<m; i++)
     {
         result *= n;
     }
+
     Console.WriteLine("n^m = " + result);
 }
 ```
@@ -469,7 +470,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Calculating N^M -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Power)
+## [Demo](./demos/Power)
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Using a complex for loop – _Example_
