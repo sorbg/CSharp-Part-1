@@ -7,8 +7,8 @@ class Factorial
     static void Main()
     {
         Console.Write("n = ");
-        string consoleInput = Console.ReadLine();
-        int n = int.Parse(consoleInput);
+
+        int n = int.Parse(Console.ReadLine());
         decimal factorial = 1;
         //BigInteger factorial = 1;
 

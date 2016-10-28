@@ -28,5 +28,10 @@ class ForLoops
         }
 
         Console.WriteLine();
+
+        for(string line = Console.ReadLine(); !string.IsNullOrEmpty(line); line = Console.ReadLine())
+        {
+            Console.WriteLine("Just read: " + line);
+        }
     }
 }
