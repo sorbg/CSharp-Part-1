@@ -270,7 +270,7 @@ for (int index = 0; index < array.Length; index++)
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Processing Arrays: `foreach`
 - How `foreach` loop works?
-  - `type`– the type of the element
+  - `type` – the type of the element
   - `value` – local name of variable
   - `array` – processing array
 ```cs
