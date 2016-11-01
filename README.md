@@ -56,8 +56,14 @@ What is a loop? `for`, `while`, `do-while` and `foreach` loops, nested loops
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/06.%20Loops/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/06. Loops/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/06. Loops/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/06. Loops/VIDEOS.md)
 
-### [07. Exam Preparation](/Topics/07. Exam-Preparations)
+### [07. Arrays](./Topics/07. Arrays)
+
+Collections, arrays, lists
+
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/07.%20Arrays/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/07. Arrays/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/07. Arrays/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/07. Arrays/VIDEOS.md)
+
+### [08. Exam Preparation](/Topics/08. Exam-Preparations)
 
 Solving tasks from previous exams
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](/Topics/07. Exam-Preparations/) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/07. Exam-Preparations/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/07. Exam-Preparations/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/07. Exam-Preparations/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](/Topics/08. Exam-Preparations/) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/08. Exam-Preparations/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/08. Exam-Preparations/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/08. Exam-Preparations/VIDEOS.md)
