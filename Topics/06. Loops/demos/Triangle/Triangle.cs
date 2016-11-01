@@ -5,8 +5,7 @@ class Triangle
     static void Main()
     {
         Console.Write("n = ");
-        string consoleInput = Console.ReadLine();
-        int n = int.Parse(consoleInput);
+        int n = int.Parse(Console.ReadLine());
 
         Console.WriteLine();
 

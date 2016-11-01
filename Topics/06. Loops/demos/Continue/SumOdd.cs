@@ -5,8 +5,7 @@ class SumOdd
 	static void Main()
 	{
 		Console.Write("n = ");
-        string numberAsString = Console.ReadLine();
-        int n = int.Parse(numberAsString);
+        int n = int.Parse(Console.ReadLine());
 
 		int sum = 0;
 
@@ -16,8 +15,10 @@ class SumOdd
             {
                 continue;
             }
+
 			sum += i;
 		}
+
 		Console.WriteLine("sum = {0}", sum);
 	}
 }

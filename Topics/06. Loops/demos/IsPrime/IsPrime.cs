@@ -6,21 +6,21 @@ class IsPrime
     {
         Console.Write("Enter a positive integer number: ");
 
-        string numberAsString = Console.ReadLine();
-        uint number = uint.Parse(numberAsString);
-        uint divider = 2;
-        uint maxDivider = (uint) Math.Sqrt(number);
-        bool prime = true;
+        uint number = uint.Parse(Console.ReadLine());
+        uint divisor = 2;
+        uint maxDivisor = (uint)Math.Sqrt(number);
+        bool isPrime = true;
 
-        while (prime && (divider <= maxDivider))
+        while (isPrime && (divisor <= maxDivisor))
         {
-            if (number % divider == 0)
+            if (number % divisor == 0)
             {
-                prime = false;
+                isPrime = false;
             }
-            divider++;
+
+            divisor++;
         }
 
-        Console.WriteLine("Prime? {0}", prime);
+        Console.WriteLine("Prime? {0}", isPrime);
     }
 }
