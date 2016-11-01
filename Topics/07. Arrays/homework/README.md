@@ -26,3 +26,4 @@ Homework: Arrays
 1. [Permutations of set](./19. Permutations of set)
 1. [Variations of set](./20. Variations of set)
 1. [Combinations of set](./21. Combinations of set)
+1. [Command line arguments](./22. Command line arguments)
