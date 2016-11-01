@@ -17,18 +17,6 @@ _Example_: let **N** be 17 and the combs be 14, 2, 19 and 10
 19 is 10011 - comb - Bobi can't use 19, because there are overlapping bits.
 ```
 
-<div style="color:green">
-## Hints
-1.  Read the input `n` and `c`. How can you read `c`-number of combs? (repeating code) Where should the logic be?
-  - you can 'process' each comb right after you read its number
-  - or we need to store all the data somewhere and then process each one (not recommended)
-2.  Check constraints and think what is the best data type!
-3.  When can a comb be used? Maybe bitwise operations?
-4.  How can we count the bits for each valid comb? Bitmasks?
-5.  How can we combare the current comb with the best one we have so far?
-6.  Print out the best comb
-</div>
-
 ## Input
 - On the first line, you will receive the number **N**.
 - On the second line, you will receive the number of combs **C**.
@@ -52,6 +40,12 @@ _Example_: let **N** be 17 and the combs be 14, 2, 19 and 10
 | 9<br>4<br>1<br>2<br>3<br>6 | 6                         |
 | 2344<br>2<br>23<br>15      | 23                        |
 
-
-
-<p style="color:green"></p>
+## Hints
+1.  Read the input `n` and `c`. How can you read `c`-number of combs? (repeating code) Where should the logic be?
+  - you can 'process' each comb right after you read its number
+  - or we need to store all the data somewhere and then process each one (not recommended)
+2.  Check constraints and think what is the best data type!
+3.  When can a comb be used? Maybe bitwise operations?
+4.  How can we count the bits for each valid comb? Bitmasks?
+5.  How can we combare the current comb with the best one we have so far?
+6.  Print out the best comb
