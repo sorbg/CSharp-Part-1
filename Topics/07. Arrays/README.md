@@ -319,7 +319,7 @@ foreach (string capital in capitals)
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Resizable Arrays
- ## List&lt;T> -->
+ ## <code>List&lt;T&gt;</code> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:53.77%; left:40%; width:19.64%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -332,9 +332,9 @@ foreach (string capital in capitals)
     - E.g. <code>List&lt;int></code> will hold `integers`
     - <code>List&lt;object></code> will hold `objects`
 - Basic methods and properties
-  - **Add(T** **element)** – adds new element to the end
-  - **Remove(element)** – removes the element
-  - **Count** – returns the current size of the list
+  - `Add(T element)` – adds new element to the end
+  - `Remove(element)` – removes the element
+  - `Count` – returns the current size of the list
 
 
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -384,13 +384,13 @@ list.Add(newValue);
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # Lists &#60;T>
+<!-- # `Lists <T>`
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Lists) -->
 
 
 
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# How The List<T> Works?
+# How The `List<T>` Works?
 - Why adding new elements is not slow?
   - When adding `n` elements in <code>List&lt;T></code> it resizes itself `log(2)n` times instead of `n`
 - Initially a new <code>List&lt;T></code> has size of 0 elements
@@ -401,7 +401,7 @@ list.Add(newValue);
 
 
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
-# How The List<T> Works?
+# How The `List<T>` Works?
 - Initially the <code>List&lt;T></code> is empty
   - When adding new element it is resized
   - But not every time
