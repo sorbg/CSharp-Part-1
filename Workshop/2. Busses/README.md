@@ -118,5 +118,10 @@ The output data is printed on the standard output (the console)
 ```
 
 ## Hints
-- How to read input?
-- Do you need to store all bus speeds?
+- How will you read the input?
+  - What is the appropriate data type to store the input values in?
+  - You will need to store `S` and `C` first
+  - Next, you will need to read the speed of all buses from the console
+- Think about how the groups are formed 
+  - Faster busses cannot outrun slower busses
+- You do not need to store bus speeds somewhere. You'll need a variable to store the groups count though.
