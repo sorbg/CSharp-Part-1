@@ -103,7 +103,7 @@ string[] daysOfWeek =
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/DaysOfWeek) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:55%; left:35%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
-
+<!-- section start -->
 
 <!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Accessing Array Elements
