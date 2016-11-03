@@ -4,6 +4,8 @@
 
 # Task 2: Buses
 
+## Submit your solution [here](http://bgcoder.com/Contests/Practice/Index/337#1)
+
 ## Description
 
 You know buses and their drivers - they all seem to have different opinion about the speed they move with. That leads to a lot of groups of buses that are grouped together. Since Stamat is a very smart and curious guy, he wants to be able to count the number of groups that are formed from a sequence of buses.

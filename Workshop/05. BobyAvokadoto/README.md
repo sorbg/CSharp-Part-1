@@ -3,6 +3,8 @@
 
 # Bobi Avokadoto
 
+## Submit your solution [here](http://bgcoder.com/Contests/Practice/Index/337#4)
+
 ## Description
 
 **Bobi Avokadoto** loves to comb his hair(and to buy new combs). Bobi's head is represented by an integer **N**. All **C** combs that he can buy are also represented as integers. Bobi can use a comb only if 

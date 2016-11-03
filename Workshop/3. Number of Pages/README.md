@@ -1,5 +1,7 @@
 # Number of Pages
 
+## Submit your solution [here](http://bgcoder.com/Contests/Practice/Index/337#2)
+
 ## Description
 
 A book has **N** pages, numbered **from 1 to N** (1, 2, 3, ... N - 1, N).

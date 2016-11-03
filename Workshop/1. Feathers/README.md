@@ -4,6 +4,8 @@
 
 # Task 1: Birds and Feathers
 
+## Submit your solution [here](http://bgcoder.com/Contests/Practice/Index/337#0)
+
 ## Description
 
 Look at the back of the hall. On the first 3 glass windows(right-to-left) you have the solution of the first task. Grab a pen and paper as fast as you can and go take it.
