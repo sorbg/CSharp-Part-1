@@ -1,4 +1,9 @@
+<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/logos/telerik-header-logo.png" />
+#### _Telerik Academy Season 2016-2017 / C# Fundamentals Exam - 26 April 2016_
+
 # Number of Pages
+
+## Submit your solution [here](http://bgcoder.com/Contests/Practice/Index/337#2)
 
 ## Description
 
