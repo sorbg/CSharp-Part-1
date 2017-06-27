@@ -218,7 +218,7 @@
   - The rest are your homework
 - Homework assignments due 1 week after each lecture – no excuses for being late
   - Deadlines are final & enforced by the system
-- Submit all your homework in our **judge system**
+#### Submit all your homework in our **judge system**
   - [bgcoder.com](http://bgcoder.com)
   - You will get real-time feedback for all the tasks
 

@@ -14,4 +14,4 @@ Write a program that prints the numbers **1**, **101** and **1001**, each on a s
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/314#1)
+#### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/314#1)
