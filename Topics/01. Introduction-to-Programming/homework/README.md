@@ -1,9 +1,9 @@
-### Homework: Introduction to Programming
+## Homework: Introduction to Programming
 
-### Tasks marked with * require additional knowledge or some research
+## Tasks marked with * require additional knowledge or some research
 =====================================
 
-### 01. Play with Visual Studio
+## 01. Play with Visual Studio
 
 ### Description
 - Install **Visual Studio** on your laptop or home computer. Go to the official [Visual Studio](https://www.visualstudio.com/) site and download the **Community 2015** version.
@@ -14,7 +14,7 @@
 
 ---
 
-### 02. Blank Solution
+## 02. Blank Solution
 
 ### Description
 - Create a blank solution in Visual Studio called *“Intro-Programming-Homework”*. use this solution to hold all your homework projects, code and files. 
@@ -25,7 +25,7 @@
 
 ---
 
-### 03. Play with MSDN Library
+## 03. Play with MSDN Library
 
 ### Description
 - Play with [Microsoft Developer Network (MSDN)](http://msdn.microsoft.com/library) Library Documentation.
@@ -39,7 +39,7 @@
 
 ---
 
-### 04. Hello World
+## 04. Hello World
 
 ### Description
 Create, compile and run a **Hello World** application - it should print the string `Hello, C##!` on the console.
@@ -59,7 +59,7 @@ Create, compile and run a **Hello World** application - it should print the stri
 
 ---
 
-### 05. Print Name
+## 05. Print Name
 
 ### Description
 - Create a C## application that print your name on the console.
@@ -70,7 +70,7 @@ Create, compile and run a **Hello World** application - it should print the stri
 
 ---
 
-### 06. Print Numbers
+## 06. Print Numbers
 
 ### Description
 Write a program that prints the numbers **1**, **101** and **1001**, each on a separate line. Submit the code at the contest in [www.bgcoder.com](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming).
@@ -90,7 +90,7 @@ Write a program that prints the numbers **1**, **101** and **1001**, each on a s
 
 ---
 
-### 07. Print First and Last Name
+## 07. Print First and Last Name
 
 ### Description
 - Create console application that prints your first and last name, each at a separate line.
@@ -100,7 +100,7 @@ Write a program that prints the numbers **1**, **101** and **1001**, each on a s
 
 ---
 
-### 08. Square root
+## 08. Square root
 
 ### Description
 Write a program that calculates the square root of the number **12345** and prints it on the console.
@@ -120,7 +120,7 @@ Write a program that calculates the square root of the number **12345** and prin
 
 ---
 
-### 09. Print Sequence
+## 09. Print Sequence
 
 ### Description
 Write a program that prints the first 10 members of the sequence: `2, -3, 4, -5, 6, -7, ...`
@@ -148,7 +148,7 @@ Write a program that prints the first 10 members of the sequence: `2, -3, 4, -5,
 
 ---
 
-### 10. Format Code
+## 10. Format Code
 
 ### Description
   - Reformat the following C## code to make it readable according to the C## best practices for code formatting. Change the casing of the identifiers in the code (e.g. use PascalCase for the class name):
@@ -190,7 +190,7 @@ i++)
 
 ---
 
-### 11. Programming Languages
+## 11. Programming Languages
 
 ### Description
 - Perform a research (e.g. in _Google_ or _Wikipedia_) and provide a short list with information about the most popular programming languages. How similar are they to C##? How do they differ from C##?
@@ -201,7 +201,7 @@ i++)
 
 ---
 
-### 12. Development Environments
+## 12. Development Environments
 
 ### Description
 - Perform a research (e.g. in _Google_ or _Wikipedia_) and provide a short list with popular development environments (**IDE**s) like Visual Studio.
@@ -212,7 +212,7 @@ i++)
 
 ---
 
-### 13. C## and .NET Differences
+## 13. C## and .NET Differences
 
 ### Description
 - Describe the difference between **C##** and **.NET Framework** in 2-3 sentences.
@@ -223,7 +223,7 @@ i++)
 
 ---
 
-### 14. Current Date and Time
+## 14. Current Date and Time
 
 ### Description
 - Create a console application that prints the current date and time. Find out how in Internet.
@@ -233,7 +233,7 @@ i++)
 
 ---
 
-### 15*. Age (Hint: try to use parse https://www.dotnetperls.com/parse)
+## 15*. Age (Hint: try to use parse https://www.dotnetperls.com/parse)
 
 ### Description
 Write a program that reads your birthday(in the format `MM.DD.YYYY`) from the console and prints on the console how old you are you now and how old will you be after 10 years.
@@ -264,7 +264,7 @@ Write a program that reads your birthday(in the format `MM.DD.YYYY`) from the co
 
 ---
 
-### 16*. Print Long Sequence
+## 16*. Print Long Sequence
 
 ### Description
 Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -5, 6, -7, …`
@@ -294,7 +294,7 @@ Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -
 
 ---
 
-### 17*. Play with the VS Debugger
+## 17*. Play with the VS Debugger
 
 ### Description
 - Write a program that prints at the console the numbers from `1 to 1000`, each at a separate line.
