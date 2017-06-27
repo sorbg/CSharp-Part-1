@@ -5,14 +5,10 @@ class Product
     static void Main()
     {
         Console.Write("n = ");
-
-        string consoleInputLine = Console.ReadLine();
-        int n = int.Parse(consoleInputLine);
+        int n = int.Parse(Console.ReadLine());
 
         Console.Write("m = ");
-
-        consoleInputLine = Console.ReadLine();
-        int m = int.Parse(consoleInputLine);
+        int m = int.Parse(Console.ReadLine());
 
         if (n < m)
         {

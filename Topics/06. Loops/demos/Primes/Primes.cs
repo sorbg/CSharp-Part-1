@@ -4,23 +4,21 @@ class Primes
 {
     static void Main()
     {
-        var n = int.Parse(Console.ReadLine());
-
-        var m = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
+        int m = int.Parse(Console.ReadLine());
 
         for (int i = n; i <= m; i++)
         {
-            var isPrime = true;
+            bool isPrime = true;
+            int maxDivisor = (int)Math.Sqrt(i);
 
-            for (int j = 2; j <= Math.Sqrt(i); j++)
+            for (int j = 2; j <= maxDivisor; j++)
             {
                 if (i % j == 0)
                 {
                     isPrime = false;
                     break;
                 }
-
-                
             }
 
             if (isPrime)
