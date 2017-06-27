@@ -1,4 +1,4 @@
-# Trailing 0 in N!
+# Trailing 0 in N! (Hint: [http://www.purplemath.com/modules/factzero.htm](http://www.purplemath.com/modules/factzero.htm))
 
 ## Description
 Write a program that calculates with how many **zeroes** the factorial of a given number **N** has at its end.
